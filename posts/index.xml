@@ -2,17 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>/posts/</link>
+    <link>kittle.github.io/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2023 22:20:00 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jun 2023 19:23:50 +0800</lastBuildDate><atom:link href="kittle.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem</title>
+      <link>kittle.github.io/posts/problem/</link>
+      <pubDate>Thu, 29 Jun 2023 19:23:50 +0800</pubDate>
+      
+      <guid>kittle.github.io/posts/problem/</guid>
+      <description>
+        
+          
+            搭建个人 GitHub 博客遇到的问题 引言 在搭建个人博客的过程中，GitHub 是一个非常理想的选择。然而，初次搭建博客时可能会遇到一些问题。本文将会介绍我在搭建个人 GitHub 博客过程中遇到的一些常见问题，并提供相应的解决方案。
+问题1：如何选择合适的主题？ GitHub 上有许多精美的主题可供选择，但是如何在众多主题中选择适合自己的呢？
+解决方案：可以在 GitHub 上搜索 &amp;ldquo;GitHub pages themes&amp;rdquo; 来查看一些热门主题，并尝试在本地运行来预览主题效果。根据个人风格和需求选择一个合适的主题，然后进行一些自定义的调整。在我搭建博客过程中，第一次直接复制了老师给的安装包，但是没有区分里面的版本，导致后来运行错误，之后我找出问题并进行了解决。第二次我选择了自己更加喜欢的主题重新搭建。
+问题2：如何在之前基于hexo搭建过个人博客后再基于hugo搭建？ 在本次作业过程中，老师要求基于hugo搭建，但与之前个人博客重名了 解决方案：删掉之前的
+问题3：如何在博客中添加图片？ 有时候需要在博客文章中添加图片来丰富内容，但是直接使用图片链接可能会导致图片无法显示。
+解决方案：将图片文件添加到博客仓库中的 &amp;ldquo;img&amp;rdquo; 文件夹或者其他合适的文件夹中。然后，在博客文章中使用相对路径来引用图片，例如 ![图片描述](../img/example.jpg)。确保图片文件的路径与引用路径一致，并且图片文件名正确。（在我的搭建过程中还未使用到图片，但因为有这个想法，所以搜索了一下解决方法）
+问题4：如何修改主题的样式？ 可能会有一些特定的样式需求，例如更改页面背景色、修改字体样式等。
+解决方案：通过修改主题的 CSS 文件来自定义样式。可以在主题仓库中找到对应的 CSS 文件，下载到本地进行编辑。修改完成后，将修改后的 CSS 文件上传到博客仓库中，并确保在页面的 &amp;lt;head&amp;gt; 元素中引用了新的 CSS 文件。
+结论 搭建个人 GitHub 博客时可能会面临一些问题，但是通过仔细阅读文档、寻求帮助和不断尝试，这些问题都是可以解决的。本次作业让我感受到了搭建个人博客的乐趣，今后的学习过程中也会经常使用个人博客。
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MyFirstArticles</title>
-      <link>/posts/myfirstarticles/</link>
+      <link>kittle.github.io/posts/myfirstarticles/</link>
       <pubDate>Wed, 28 Jun 2023 22:20:00 +0800</pubDate>
       
-      <guid>/posts/myfirstarticles/</guid>
+      <guid>kittle.github.io/posts/myfirstarticles/</guid>
       <description>
         
           
